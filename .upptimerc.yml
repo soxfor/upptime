@@ -11,13 +11,11 @@ sites:
   - name: Media Control
     url: $SITE_6
     expectedStatusCodes:
-      - 200
-      - 302
+      - 401
   - name: Media Helper
     url: $SITE_8
     expectedStatusCodes:
-      - 200
-      - 302
+      - 401
   - name: Cloud
     url: $SITE_2
     expectedStatusCodes:
@@ -31,18 +29,15 @@ sites:
   - name: SearchS
     url: $SITE_4
     expectedStatusCodes:
-      - 200
-      - 302
+      - 401
   - name: SearchM
     url: $SITE_5
     expectedStatusCodes:
-      - 200
-      - 302
+      - 401
   - name: Search Helper
     url: $SITE_7
     expectedStatusCodes:
-      - 200
-      - 302
+      - 401
   - name: Provider
     check: "tcp-ping"
     url: $PROVIDER_1
