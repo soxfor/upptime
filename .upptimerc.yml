@@ -5,7 +5,7 @@ repo: upptime # The name of this repository
 sites:
   - name: Media
     url: $SITE_1
-    icon: $SITE_1/favicon.ico
+    icon: "${{ secrets.SITE_1 }}/favicon.ico"
     expectedStatusCodes:
       - 200
       - 302
@@ -36,6 +36,7 @@ status-website:
   name: Upptime
   introTitle: ""
   introMessage: ""
+  theme: night
   navbar:
     - title: Status
       href: /
