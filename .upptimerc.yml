@@ -5,19 +5,41 @@ repo: upptime # The name of this repository
 sites:
   - name: Media
     url: $SITE_1
-    icon: "${{ secrets.SITE_1 }}/favicon.ico"
+    expectedStatusCodes:
+      - 200
+      - 302
+  - name: Media Control
+    url: $SITE_6
+    expectedStatusCodes:
+      - 200
+      - 302
+  - name: Media Helper
+    url: $SITE_8
     expectedStatusCodes:
       - 200
       - 302
   - name: Cloud
     url: $SITE_2
-    icon: $SITE_2/favicon.ico
     expectedStatusCodes:
       - 200
       - 302
   - name: Vault
     url: $SITE_3
-    icon: $SITE_3/favicon.ico
+    expectedStatusCodes:
+      - 200
+      - 302
+  - name: SearchS
+    url: $SITE_4
+    expectedStatusCodes:
+      - 200
+      - 302
+  - name: SearchM
+    url: $SITE_5
+    expectedStatusCodes:
+      - 200
+      - 302
+  - name: Search Helper
+    url: $SITE_7
     expectedStatusCodes:
       - 200
       - 302
@@ -26,7 +48,6 @@ sites:
     url: $PROVIDER_1
     port: $PROVIDER_1_PORT
     
-
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
@@ -42,6 +63,13 @@ status-website:
       href: /
     #- title: GitHub
     #  href: https://github.com/$OWNER/$REPO
+
+workflowSchedule:
+  uptime: "*/15 * * * *"
+
+robotsText: "User-agent: * \n Disallow: /"
+
+user-agent: soxfor
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
