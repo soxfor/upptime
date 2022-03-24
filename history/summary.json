@@ -40,19 +40,19 @@
     "url": "$SITE_3",
     "icon": "$SITE_3/favicon.ico",
     "slug": "vault",
-    "status": "down",
-    "uptime": "97.13%",
-    "uptimeDay": "97.13%",
-    "uptimeWeek": "97.13%",
-    "uptimeMonth": "97.13%",
-    "uptimeYear": "97.13%",
-    "time": 881,
-    "timeDay": 881,
-    "timeWeek": 881,
-    "timeMonth": 881,
-    "timeYear": 881,
+    "status": "up",
+    "uptime": "90.13%",
+    "uptimeDay": "90.13%",
+    "uptimeWeek": "90.13%",
+    "uptimeMonth": "90.13%",
+    "uptimeYear": "90.13%",
+    "time": 886,
+    "timeDay": 886,
+    "timeWeek": 886,
+    "timeMonth": 886,
+    "timeYear": 886,
     "dailyMinutesDown": {
-      "2022-03-24": 0
+      "2022-03-24": 1
     }
   },
   {
