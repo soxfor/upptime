@@ -1,7 +1,7 @@
 url: $PROVIDER_1
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2024-05-03T10:57:32.907Z
+status: up
+code: 200
+responseTime: 116
+lastUpdated: 2024-05-03T11:50:46.176Z
 startTime: 2022-03-24T03:20:52.000Z
 generator: Upptime <https://github.com/upptime/upptime>
